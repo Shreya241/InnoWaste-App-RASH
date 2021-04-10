@@ -3,19 +3,32 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1D077CFB2621E35500A05F78 /* water-bottle.json in Resources */ = {isa = PBXBuildFile; fileRef = 1D077CFA2621E35500A05F78 /* water-bottle.json */; };
+		1D077CFE2621E35D00A05F78 /* delivery.json in Resources */ = {isa = PBXBuildFile; fileRef = 1D077CFD2621E35D00A05F78 /* delivery.json */; };
 		1D28F7872621D97E00409D3C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D28F7862621D97E00409D3C /* AppDelegate.swift */; };
 		1D28F7892621D97E00409D3C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D28F7882621D97E00409D3C /* SceneDelegate.swift */; };
 		1D28F78B2621D97E00409D3C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D28F78A2621D97E00409D3C /* ViewController.swift */; };
 		1D28F78E2621D97E00409D3C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1D28F78C2621D97E00409D3C /* Main.storyboard */; };
 		1D28F7902621D98100409D3C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1D28F78F2621D98100409D3C /* Assets.xcassets */; };
 		1D28F7932621D98100409D3C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1D28F7912621D98100409D3C /* LaunchScreen.storyboard */; };
+		1D73A1CE2622098D00D1D579 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D73A1CD2622098D00D1D579 /* RegisterViewController.swift */; };
+		1DCF1D692621E8B900A8514D /* Signup.json in Resources */ = {isa = PBXBuildFile; fileRef = 1DCF1D682621E8B900A8514D /* Signup.json */; };
+		1DCF1D6D2621EB9D00A8514D /* pen.json in Resources */ = {isa = PBXBuildFile; fileRef = 1DCF1D6C2621EB9D00A8514D /* pen.json */; };
+		1DCF1D702621ED1600A8514D /* signViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DCF1D6F2621ED1600A8514D /* signViewController.swift */; };
+		1DCF1D732621F14F00A8514D /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1DCF1D722621F14F00A8514D /* GoogleService-Info.plist */; };
+		1DCF1D772622024F00A8514D /* BingoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DCF1D762622024F00A8514D /* BingoViewController.swift */; };
+		1DCF1D7A2622029500A8514D /* load_tick.json in Resources */ = {isa = PBXBuildFile; fileRef = 1DCF1D792622029500A8514D /* load_tick.json */; };
+		1DF394382621E10D00D7B1C0 /* 16885-delivery.json in Resources */ = {isa = PBXBuildFile; fileRef = 1DF394372621E10D00D7B1C0 /* 16885-delivery.json */; };
+		6870B40676BAD6EC4E730A7A /* Pods_TeamRash_InnoWaste.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D8A22FF5988F1DEC42F274B /* Pods_TeamRash_InnoWaste.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1D077CFA2621E35500A05F78 /* water-bottle.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = "water-bottle.json"; path = "TeamRash_InnoWaste/New Group/water-bottle.json"; sourceTree = SOURCE_ROOT; };
+		1D077CFD2621E35D00A05F78 /* delivery.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = delivery.json; path = "TeamRash_InnoWaste/New Group/delivery.json"; sourceTree = SOURCE_ROOT; };
 		1D28F7832621D97E00409D3C /* TeamRash_InnoWaste.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TeamRash_InnoWaste.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1D28F7862621D97E00409D3C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1D28F7882621D97E00409D3C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +37,17 @@
 		1D28F78F2621D98100409D3C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1D28F7922621D98100409D3C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1D28F7942621D98100409D3C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1D73A1CD2622098D00D1D579 /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		1DCF1D682621E8B900A8514D /* Signup.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = Signup.json; path = "TeamRash_InnoWaste/New Group/Signup.json"; sourceTree = SOURCE_ROOT; };
+		1DCF1D6C2621EB9D00A8514D /* pen.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = pen.json; path = "TeamRash_InnoWaste/New Group/pen.json"; sourceTree = SOURCE_ROOT; };
+		1DCF1D6F2621ED1600A8514D /* signViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = signViewController.swift; sourceTree = "<group>"; };
+		1DCF1D722621F14F00A8514D /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		1DCF1D762622024F00A8514D /* BingoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BingoViewController.swift; sourceTree = "<group>"; };
+		1DCF1D792622029500A8514D /* load_tick.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = load_tick.json; path = "TeamRash_InnoWaste/New Group/load_tick.json"; sourceTree = SOURCE_ROOT; };
+		1DF394372621E10D00D7B1C0 /* 16885-delivery.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "16885-delivery.json"; sourceTree = "<group>"; };
+		4D8A22FF5988F1DEC42F274B /* Pods_TeamRash_InnoWaste.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TeamRash_InnoWaste.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9041C017EA33B45B0AAD6BD1 /* Pods-TeamRash_InnoWaste.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TeamRash_InnoWaste.release.xcconfig"; path = "Target Support Files/Pods-TeamRash_InnoWaste/Pods-TeamRash_InnoWaste.release.xcconfig"; sourceTree = "<group>"; };
+		D31C7726E999526063F4BF53 /* Pods-TeamRash_InnoWaste.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TeamRash_InnoWaste.debug.xcconfig"; path = "Target Support Files/Pods-TeamRash_InnoWaste/Pods-TeamRash_InnoWaste.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +55,32 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6870B40676BAD6EC4E730A7A /* Pods_TeamRash_InnoWaste.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1D2153C026220B2700B6108F /* Json Files */ = {
+			isa = PBXGroup;
+			children = (
+				1DCF1D6C2621EB9D00A8514D /* pen.json */,
+				1DCF1D682621E8B900A8514D /* Signup.json */,
+				1D077CFA2621E35500A05F78 /* water-bottle.json */,
+				1DCF1D792622029500A8514D /* load_tick.json */,
+				1D077CFD2621E35D00A05F78 /* delivery.json */,
+			);
+			path = "Json Files";
+			sourceTree = "<group>";
+		};
 		1D28F77A2621D97E00409D3C = {
 			isa = PBXGroup;
 			children = (
 				1D28F7852621D97E00409D3C /* TeamRash_InnoWaste */,
 				1D28F7842621D97E00409D3C /* Products */,
+				DDA758CF408C12EC1BA99CFB /* Pods */,
+				4CDDBC7CB3B581F1D5232559 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,13 +97,44 @@
 			children = (
 				1D28F7862621D97E00409D3C /* AppDelegate.swift */,
 				1D28F7882621D97E00409D3C /* SceneDelegate.swift */,
-				1D28F78A2621D97E00409D3C /* ViewController.swift */,
+				1D73A1D02622099900D1D579 /* Controlleras */,
 				1D28F78C2621D97E00409D3C /* Main.storyboard */,
 				1D28F78F2621D98100409D3C /* Assets.xcassets */,
+				1D2153C026220B2700B6108F /* Json Files */,
+				1DF394372621E10D00D7B1C0 /* 16885-delivery.json */,
 				1D28F7912621D98100409D3C /* LaunchScreen.storyboard */,
+				1DCF1D722621F14F00A8514D /* GoogleService-Info.plist */,
 				1D28F7942621D98100409D3C /* Info.plist */,
 			);
 			path = TeamRash_InnoWaste;
+			sourceTree = "<group>";
+		};
+		1D73A1D02622099900D1D579 /* Controlleras */ = {
+			isa = PBXGroup;
+			children = (
+				1D28F78A2621D97E00409D3C /* ViewController.swift */,
+				1DCF1D6F2621ED1600A8514D /* signViewController.swift */,
+				1DCF1D762622024F00A8514D /* BingoViewController.swift */,
+				1D73A1CD2622098D00D1D579 /* RegisterViewController.swift */,
+			);
+			path = Controlleras;
+			sourceTree = "<group>";
+		};
+		4CDDBC7CB3B581F1D5232559 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4D8A22FF5988F1DEC42F274B /* Pods_TeamRash_InnoWaste.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DDA758CF408C12EC1BA99CFB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D31C7726E999526063F4BF53 /* Pods-TeamRash_InnoWaste.debug.xcconfig */,
+				9041C017EA33B45B0AAD6BD1 /* Pods-TeamRash_InnoWaste.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +144,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1D28F7972621D98100409D3C /* Build configuration list for PBXNativeTarget "TeamRash_InnoWaste" */;
 			buildPhases = (
+				913C5C64083E01D9F5122FB2 /* [CP] Check Pods Manifest.lock */,
 				1D28F77F2621D97E00409D3C /* Sources */,
 				1D28F7802621D97E00409D3C /* Frameworks */,
 				1D28F7812621D97E00409D3C /* Resources */,
+				A37BAAFEB3C4EFCC12919E7F /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -124,22 +196,74 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1DF394382621E10D00D7B1C0 /* 16885-delivery.json in Resources */,
+				1DCF1D692621E8B900A8514D /* Signup.json in Resources */,
 				1D28F7932621D98100409D3C /* LaunchScreen.storyboard in Resources */,
+				1DCF1D732621F14F00A8514D /* GoogleService-Info.plist in Resources */,
+				1DCF1D7A2622029500A8514D /* load_tick.json in Resources */,
+				1DCF1D6D2621EB9D00A8514D /* pen.json in Resources */,
+				1D077CFB2621E35500A05F78 /* water-bottle.json in Resources */,
 				1D28F7902621D98100409D3C /* Assets.xcassets in Resources */,
 				1D28F78E2621D97E00409D3C /* Main.storyboard in Resources */,
+				1D077CFE2621E35D00A05F78 /* delivery.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		913C5C64083E01D9F5122FB2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TeamRash_InnoWaste-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A37BAAFEB3C4EFCC12919E7F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TeamRash_InnoWaste/Pods-TeamRash_InnoWaste-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TeamRash_InnoWaste/Pods-TeamRash_InnoWaste-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TeamRash_InnoWaste/Pods-TeamRash_InnoWaste-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		1D28F77F2621D97E00409D3C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1DCF1D772622024F00A8514D /* BingoViewController.swift in Sources */,
 				1D28F78B2621D97E00409D3C /* ViewController.swift in Sources */,
 				1D28F7872621D97E00409D3C /* AppDelegate.swift in Sources */,
+				1D73A1CE2622098D00D1D579 /* RegisterViewController.swift in Sources */,
 				1D28F7892621D97E00409D3C /* SceneDelegate.swift in Sources */,
+				1DCF1D702621ED1600A8514D /* signViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -283,6 +407,7 @@
 		};
 		1D28F7982621D98100409D3C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D31C7726E999526063F4BF53 /* Pods-TeamRash_InnoWaste.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -302,6 +427,7 @@
 		};
 		1D28F7992621D98100409D3C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9041C017EA33B45B0AAD6BD1 /* Pods-TeamRash_InnoWaste.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
